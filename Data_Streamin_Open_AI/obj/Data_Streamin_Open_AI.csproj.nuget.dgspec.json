@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "restore": {
+    "A:\\Semantic Kerner\\Data_Streamin_Open_AI\\Data_Streamin_Open_AI.csproj": {}
+  },
+  "projects": {
+    "A:\\Semantic Kerner\\Data_Streamin_Open_AI\\Data_Streamin_Open_AI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\Semantic Kerner\\Data_Streamin_Open_AI\\Data_Streamin_Open_AI.csproj",
+        "projectName": "Data_Streamin_Open_AI",
+        "projectPath": "A:\\Semantic Kerner\\Data_Streamin_Open_AI\\Data_Streamin_Open_AI.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "A:\\Semantic Kerner\\Data_Streamin_Open_AI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.SemanticKernel": {
+              "target": "Package",
+              "version": "[0.15.230531.5-preview, )"
+            },
+            "Microsoft.SemanticKernel.Connectors.AI.OpenAI": {
+              "target": "Package",
+              "version": "[0.15.230531.5-preview, )"
+            },
+            "Microsoft.SemanticKernel.Connectors.Memory.AzureCognitiveSearch": {
+              "target": "Package",
+              "version": "[0.15.230531.5-preview, )"
+            },
+            "Microsoft.SemanticKernel.Connectors.Memory.Qdrant": {
+              "target": "Package",
+              "version": "[0.15.230531.5-preview, )"
+            },
+            "Microsoft.SemanticKernel.Skills.MsGraph": {
+              "target": "Package",
+              "version": "[0.15.230531.5-preview, )"
+            },
+            "Microsoft.SemanticKernel.Skills.OpenAPI": {
+              "target": "Package",
+              "version": "[0.15.230531.5-preview, )"
+            },
+            "Microsoft.SemanticKernel.Skills.Web": {
+              "target": "Package",
+              "version": "[0.15.230531.5-preview, )"
+            },
+            "ServiceStack.Text": {
+              "target": "Package",
+              "version": "[6.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
